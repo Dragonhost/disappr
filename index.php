@@ -57,7 +57,7 @@
       <!-- <h1>DISAPPR</h1> -->
       <div class="logo">
         <img src="logo/disappr.png" alt="logo" class="d">
-        <h1 class="isappr">isapp</h1>
+        <h1 class="isappr">isappr</h1>
       </div>
 
       <div class="empty"></div>
