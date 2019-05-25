@@ -1,0 +1,72 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background: #2c3531;
+  display: grid;
+  outline: none;
+}
+
+.box {
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.title {
+  background: #deece8;
+  height: 100%;
+  padding: 0.4rem 0.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: #116466;
+}
+
+.content {
+  background: #deece8;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+}
+
+.time_diff {
+  color: #ffcb9a;
+  font-size: 1rem;
+  background: #116466;
+  width: 13rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  justify-self: end;
+  align-self: end;
+}
+
+.incorrect_link {
+  text-align: center;
+  color: #ffcb9a;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.page {
+  display: grid;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+  color: #deece8;
+  text-align: center;
+}
+
+.expired {
+  color: #188b8d;
+  font-size: 2rem;
+}

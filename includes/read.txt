@@ -1,0 +1,10 @@
+
+# make sure to include the login,logout,signup pages 
+
+# also require the variables and errors pages
+
+#make sure to add the variable in the name tag inside the form
+
+# use a <p> tag to style the errors
+
+# start the session in all the main pages of the website

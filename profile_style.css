@@ -1,0 +1,150 @@
+* {
+  font-family: "Raleway", sans-serif;
+  outline: none;
+}
+
+body {
+  background: #2c3531;
+  margin: 0;
+  outline: none;
+}
+
+.header {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 70% 30%;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+  color: #d1e9e2;
+  font-weight: 900;
+  outline: none;
+}
+
+.logo_icon {
+  width: 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #ffcb9a;
+}
+
+.home {
+  font-size: 1.3rem;
+  font-weight: 500;
+  justify-self: end;
+}
+
+.home:hover {
+  color: #c49e7d;
+}
+
+.logout_button {
+  font-size: 1.3rem;
+  font-weight: 500;
+  justify-self: end;
+}
+
+.logout_button:hover {
+  color: #c49e7d;
+}
+
+.no_active {
+  text-align: center;
+  color: #1fb8bb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Boxes */
+.boxes {
+  display: grid;
+  grid-gap: 2rem;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.box {
+  background: #ddece8;
+  width: 100%;
+  height: 10rem;
+  display: grid;
+  grid-template-rows: 75% 25%;
+  border-radius: 1rem 1rem 1rem 0;
+}
+
+.link_title {
+  display: grid;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.open {
+  background: #116466;
+  color: #d9b08c;
+  text-decoration: none;
+  width: 3rem;
+  height: 100%;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  border-radius: 0 1rem 0 0;
+  transition: 0.5s ease;
+  font-size: 1rem;
+}
+
+.open:hover {
+  border-radius: 0 0 0 0;
+  font-size: 0.5rem;
+}
+
+.title {
+  justify-self: center;
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.time {
+  justify-self: end;
+  align-self: end;
+  padding: 0 0.5rem 0.5rem 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .nav {
+    grid-gap: 1rem;
+  }
+
+  .logo {
+    justify-self: center;
+  }
+
+  .home {
+    font-size: 1rem;
+    justify-self: end;
+    align-self: center;
+  }
+
+  .logout_button {
+    font-size: 1rem;
+    justify-self: start;
+    align-self: center;
+  }
+}
